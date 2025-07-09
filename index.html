@@ -3,118 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taller SENA: Tecnologías Emergentes y Disruptivas</title>
+    <title>Taller SENA: Tecnologías Emergentes y Disruptivas - ADSO</title>
     <link rel="stylesheet" href="css/style.css">
-    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
 <body>
     <header>
-        <h1>Taller SENA: Tecnologías Emergentes y Disruptivas</h1>
-        <p>Evidencia del programa de Análisis y Desarrollo de Software</p>
+        <div class="container">
+            <h1>Taller sobre Tecnologías Emergentes y Disruptivas</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="#investigacion"><i class="fas fa-search"></i> Investigación</a></li>
+                    <li><a href="seleccionadas.html"><i class="fas fa-star"></i> Mis Tecnologías Favoritas</a></li>
+                    <li><a href="#contacto"><i class="fas fa-id-card"></i> Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="introduccion-tecnologias">
-            <h2>Sección 1: Investigación de Tecnologías</h2>
-            <p>Aquí encontrarás un breve resumen de diversas tecnologías consideradas emergentes y disruptivas.</p>
-            
-            <div class="tecnologias-grid">
-                <article class="tecnologia-item">
-                    <h3>Internet de las Cosas (IoT)</h3>
-                    <p>El crecimiento de los aparatos inteligentes.</p>
-                    <p class="descripcion-corta">Interconexión de objetos cotidianos con internet, permitiéndoles enviar y recibir datos para transformarlos en dispositivos "inteligentes".</p>
-                </article>
-
-                <article class="tecnologia-item">
-                    <h3>Inteligencia Artificial (IA)</h3>
-                    <p>Los softbots y el aprendizaje de las máquinas.</p>
-                    <p class="descripcion-corta">Creación de máquinas que simulan la inteligencia humana, capaces de aprender, resolver problemas y entender el lenguaje.</p>
-                </article>
-                
-                <article class="tecnologia-item">
-                    <h3>Crowdsourcing</h3>
-                    <p>El poder de muchos.</p>
-                    <p class="descripcion-corta">Externalización de tareas a un grupo grande de personas, aprovechando la inteligencia colectiva para obtener ideas y soluciones.</p>
-                </article>
-
-                <article class="tecnologia-item">
-                    <h3>Voice to Text</h3>
-                    <p>El crecimiento de los asistentes virtuales.</p>
-                    <p class="descripcion-corta">Tecnología que convierte el lenguaje hablado en texto escrito, fundamental para asistentes de voz y comandos por voz.</p>
-                </article>
-
-                <article class="tecnologia-item">
-                    <h3>Geolocation</h3>
-                    <p>Drones, Seguridad y Control ciudadano.</p>
-                    <p class="descripcion-corta">Determinación de la ubicación geográfica de un objeto o persona, crucial para mapeo, seguridad y monitoreo con drones.</p>
-                </article>
-
-                <article class="tecnologia-item">
-                    <h3>Impresión 3D (3D Printing)</h3>
-                    <p>Uno en cada casa.</p>
-                    <p class="descripcion-corta">Proceso de creación de objetos tridimensionales capa por capa a partir de un diseño digital, democratizando la manufactura.</p>
-                </article>
-
-                <article class="tecnologia-item">
-                    <h3>Blockchain</h3>
-                    <p>Cadena de bloques.</p>
-                    <p class="descripcion-corta">Tecnología de registro distribuido y descentralizado que garantiza seguridad, inmutabilidad y transparencia de datos.</p>
-                </article>
-
-                <article class="tecnologia-item">
-                    <h3>Bases de conocimiento</h3>
-                    <p>Googles privados.</p>
-                    <p class="descripcion-corta">Repositorios organizados de información estructurada para facilitar la búsqueda y recuperación de datos internos en organizaciones.</p>
-                </article>
-
-                <article class="tecnologia-item">
-                    <h3>Robots (Hardware)</h3>
-                    <p>Desde exos hasta manufactura automatizada.</p>
-                    <p class="descripcion-corta">Avances físicos en la robótica, incluyendo exoesqueletos y robots colaborativos que transforman la manufactura y la asistencia.</p>
-                </article>
-
-                <article class="tecnologia-item">
-                    <h3>Tecnologías Emergentes Visuales</h3>
-                    <p>3D, Virtual, Augmented, Hologramas.</p>
-                    <p class="descripcion-corta">Tecnologías que crean y manipulan experiencias visuales inmersivas o mejoradas, desde gráficos 3D hasta realidad virtual y aumentada.</p>
-                </article>
-
+        <section id="presentacion" class="hero">
+            <div class="container">
+                <div class="profile-card">
+                    <img src="img/Jhon Mejia.jpg" alt="Foto de Jhon Jairo Mejía Ávila" class="profile-img">
+                    <h2>Hola, soy Jhon Jairo Mejía Ávila</h2>
+                    <p>Aprendiz del programa: **Análisis y Desarrollo de Software (ADSO)**</p>
+                    <p>Ficha del programa: **2885525**</p>
+                    <p>Este taller es el resultado de mi investigación y análisis sobre las tecnologías que están redefiniendo el futuro de la industria y la sociedad, desde la perspectiva de un futuro desarrollador.</p>
+                </div>
             </div>
         </section>
 
-        <section id="mis-tecnologias-favoritas">
-            <h2>Sección 2: Mis 3 Tecnologías Favoritas</h2>
-            <p>Aquí detallo las tres tecnologías que más me interesaron y las respuestas a las preguntas planteadas.</p>
+        <section id="investigacion" class="tecnologias-overview">
+            <div class="container">
+                <h2>Sección 1: Investigación de Tecnologías</h2>
+                <p class="section-description">A continuación, presento una investigación concisa sobre diversas tecnologías denominadas emergentes y disruptivas, explorando su concepto y características principales.</p>
 
-            <article class="tecnologia-detalle">
-                <h3>1. [Nombre de tu primera tecnología seleccionada, por ejemplo: Inteligencia Artificial]</h3>
-                
-                <h4>¿En qué consiste la tecnología?</h4>
-                <p>Aquí pega la respuesta detallada de tu investigación.</p>
-                
-                <h4>¿Cuáles son las características más importantes?</h4>
-                <p>Aquí pega la respuesta detallada de tu investigación.</p>
-                
-                <h4>De acuerdo a su medio ambiente ¿cómo se puede utilizar esta tecnología?</h4>
-                <p>Aquí pega la respuesta detallada de tu investigación.</p>
-                
-                <h4>¿Qué recursos necesita para desarrollar un proyecto propio con estas tecnologías?</h4>
-                <p>Aquí pega la respuesta detallada de tu investigación.</p>
-            </article>
-
-            <article class="tecnologia-detalle">
-                <h3>2. [Nombre de tu segunda tecnología seleccionada]</h3>
-                </article>
-
-            <article class="tecnologia-detalle">
-                <h3>3. [Nombre de tu tercera tecnología seleccionada]</h3>
-                </article>
-
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <h3><i class="fas fa-cogs"></i> Internet de las Cosas (IoT)</h3>
+                        <p>El crecimiento de los aparatos inteligentes.</p>
+                        <a href="tecnologias/iot.html" class="btn">Saber más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="grid-item">
+                        <h3><i class="fas fa-robot"></i> Inteligencia Artificial (IA)</h3>
+                        <p>Los softbots y el aprendizaje de las máquinas.</p>
+                        <a href="tecnologias/ia.html" class="btn">Saber más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="grid-item">
+                        <h3><i class="fas fa-users"></i> Crowdsourcing</h3>
+                        <p>El poder de muchos.</p>
+                        <a href="tecnologias/crowdsourcing.html" class="btn">Saber más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="grid-item">
+                        <h3><i class="fas fa-microphone-alt"></i> Voice to Text</h3>
+                        <p>El crecimiento de los asistentes virtuales.</p>
+                        <a href="tecnologias/voice-to-text.html" class="btn">Saber más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="grid-item">
+                        <h3><i class="fas fa-map-marker-alt"></i> Geolocation</h3>
+                        <p>Drones, Seguridad y Control ciudadano.</p>
+                        <a href="tecnologias/geolocation.html" class="btn">Saber más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="grid-item">
+                        <h3><i class="fas fa-print"></i> Impresión 3D</h3>
+                        <p>Uno en cada casa.</p>
+                        <a href="tecnologias/impresion-3d.html" class="btn">Saber más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="grid-item">
+                        <h3><i class="fas fa-link"></i> Blockchain</h3>
+                        <p>Cadena de bloques.</p>
+                        <a href="tecnologias/blockchain.html" class="btn">Saber más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="grid-item">
+                        <h3><i class="fas fa-database"></i> Bases de Conocimiento</h3>
+                        <p>Googles privados.</p>
+                        <a href="tecnologias/bases-de-conocimiento.html" class="btn">Saber más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="grid-item">
+                        <h3><i class="fas fa-hard-hat"></i> Robots (Hardware)</h3>
+                        <p>Desde exos hasta manufactura automatizada.</p>
+                        <a href="tecnologias/robots.html" class="btn">Saber más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="grid-item">
+                        <h3><i class="fas fa-vr-cardboard"></i> Tecnologías Visuales</h3>
+                        <p>3D, Virtual, Augmented, Hologramas.</p>
+                        <a href="tecnologias/visuales.html" class="btn">Saber más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="action-section">
+                    <p>Explora cada tecnología en detalle o ve directamente a mis selecciones principales:</p>
+                    <a href="seleccionadas.html" class="btn btn-primary-large"><i class="fas fa-grip-lines"></i> Ver Mis Tecnologías Favoritas</a>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 [Tu Nombre Completo] - Evidencia SENA - ADSO</p>
+    <footer id="contacto">
+        <div class="container">
+            <p>&copy; 2025 Jhon Jairo Mejía Ávila - Ficha ADSO 2885525</p>
+            <p>Taller sobre Tecnologías Emergentes y Disruptivas - Evidencia SENA</p>
+            <div class="social-links">
+                <a href="https://github.com/JIMELIAAVILA" target="_blank" aria-label="Mi Perfil de GitHub"><i class="fab fa-github"></i></a>
+                </div>
+        </div>
     </footer>
-
-    </body>
+</body>
 </html>
